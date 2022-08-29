@@ -11,7 +11,7 @@ interface Props {
   onSuccess: (data) => void
 }
 
-export default function ServicesCategories (props: Props): ReactElement {
+export default function ServicesCategoriesContainer (props: Props): ReactElement {
   const { allCount, onSuccess } = props
 
   const { t, translateData } = useTranslate()
